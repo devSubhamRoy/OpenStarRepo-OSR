@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { HashRouter, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router-dom'
 import { Navbar } from './components/Navbar'
 import { Footer } from './components/Footer'
 import { RepoModal } from './components/RepoModal'
@@ -25,9 +25,9 @@ function NotFoundPage() {
         title="Page not found"
         message="The page you are looking for doesn't exist. Head back home or explore the repository directory."
         action={
-          <a href="#/" className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-5 py-2.5 text-sm font-semibold text-white transition-all hover:brightness-110">
+          <Link to="/" className="btn-primary inline-flex min-h-[44px] items-center gap-2 px-5 py-2.5 text-xs font-semibold">
             <Icon name="home" size={15} /> Back to home
-          </a>
+          </Link>
         }
       />
     </div>
@@ -81,10 +81,10 @@ function AppShell() {
 export default function App() {
   return (
     <ThemeProvider>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <AppShell />
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
   )
 }
