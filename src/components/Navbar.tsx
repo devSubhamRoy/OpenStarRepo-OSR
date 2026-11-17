@@ -11,7 +11,7 @@ const LINKS = [
   { to: '/guidelines', label: 'Guidelines' },
 ]
 
-const GITHUB_REPO_URL = 'https://github.com/opensource-hub/opensource-hub'
+const GITHUB_REPO_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR-'
 
 export function Navbar() {
   const [open, setOpen] = useState(false)

@@ -38,9 +38,9 @@ const EMPTY: FormState = {
 }
 
 const DRAFT_KEY = 'openstarrepo-draft'
-const GITHUB_REPO_URL = 'https://github.com/opensource-hub/opensource-hub'
-const GITHUB_PR_URL = 'https://github.com/opensource-hub/opensource-hub/pulls'
-const GITHUB_EDIT_URL = 'https://github.com/opensource-hub/opensource-hub/edit/main/src/data/repositories.json'
+const GITHUB_REPO_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR-'
+const GITHUB_PR_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR-/pulls'
+const GITHUB_EDIT_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR-/edit/main/src/data/repositories.json'
 
 const SUGGESTED_SKILLS = [
   'Claude Code Skill',
@@ -791,7 +791,7 @@ export function ContributePage({ repositories }: ContributePageProps) {
             </div>
 
             <div className="text-[11px] text-ink-3 border-t border-line pt-2.5 flex items-center justify-between">
-              <span>Repository: <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer" className="text-ink hover:underline">opensource-hub/opensource-hub</a></span>
+              <span>Repository: <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer" className="text-ink hover:underline">devSubhamRoy/OpenStarRepo-OSR-</a></span>
               <span>OSI-approved licenses only</span>
             </div>
           </div>
