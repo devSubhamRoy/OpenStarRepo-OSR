@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState, type FormEvent } from 'react'
 import { Icon } from '../components/Icon'
 import { CopyButton } from '../components/CopyButton'
 import { CATEGORIES } from '../lib/categories'
-import { cn, downloadJson, isDuplicateUrl, isValidGithubUrl, nextRepoId, parseOwnerRepo, todayIso } from '../lib/utils'
+import { cn, downloadJson, fetchGithubRepoDetails, isDuplicateUrl, isValidGithubUrl, nextRepoId, parseOwnerRepo, todayIso } from '../lib/utils'
 import type { Repository } from '../types'
 
 interface ContributePageProps {
@@ -144,6 +144,8 @@ export function ContributePage({ repositories }: ContributePageProps) {
   const [touchedUrl, setTouchedUrl] = useState(false)
   const [isCustomCategoryMode, setIsCustomCategoryMode] = useState(false)
   const [customTechInput, setCustomTechInput] = useState('')
+  const [liveStars, setLiveStars] = useState<number | null>(null)
+  const [isFetchingGithub, setIsFetchingGithub] = useState(false)
 
   const activeCategory = useMemo(() => {
     if (isCustomCategoryMode || form.category === '__custom__') {
@@ -159,6 +161,54 @@ export function ContributePage({ repositories }: ContributePageProps) {
 
   const parsed = parseOwnerRepo(form.github_url)
 
+  // Real-time automatic GitHub stars and metadata calculation
+  useEffect(() => {
+    const owner = parsed?.owner
+    const repo = parsed?.repo
+    if (!owner || !repo || !isValidGithubUrl(form.github_url)) {
+      return
+    }
+
+    let isMounted = true
+    const timer = setTimeout(() => {
+      setIsFetchingGithub(true)
+      fetchGithubRepoDetails(owner, repo)
+        .then((details) => {
+          if (!isMounted) return
+          setIsFetchingGithub(false)
+          if (details) {
+            setLiveStars(details.stars)
+
+            // Auto-fill project metadata if blank
+            setForm((prev) => {
+              const next = { ...prev }
+              if (!prev.name.trim() && details.repo) {
+                next.name = details.repo
+              }
+              if (!prev.description.trim() && details.description) {
+                next.description = details.description
+              }
+              if (details.license && (!prev.license || prev.license === 'MIT')) {
+                next.license = details.license
+              }
+              if (!prev.technologies.trim() && details.topics && details.topics.length > 0) {
+                next.technologies = details.topics.slice(0, 5).join(', ')
+              }
+              return next
+            })
+          }
+        })
+        .catch(() => {
+          if (isMounted) setIsFetchingGithub(false)
+        })
+    }, 500)
+
+    return () => {
+      isMounted = false
+      clearTimeout(timer)
+    }
+  }, [parsed?.owner, parsed?.repo, form.github_url])
+
   const duplicate = useMemo(() => {
     if (!isValidGithubUrl(form.github_url)) return false
     return isDuplicateUrl(form.github_url, repositories)
@@ -173,7 +223,7 @@ export function ContributePage({ repositories }: ContributePageProps) {
       github_url: form.github_url.trim() || 'https://github.com/owner/repository',
       category: activeCategory || 'Developer Tools',
       technologies: techList.length > 0 ? techList : ['TypeScript'],
-      stars: null,
+      stars: liveStars !== null ? liveStars : null,
       contributor: form.contributor.trim() || 'Community',
       created_at: todayIso(),
       featured: false,
@@ -181,7 +231,7 @@ export function ContributePage({ repositories }: ContributePageProps) {
       savings_annual: form.savings_annual.trim() || undefined,
       license: form.license.trim() || 'MIT',
     }),
-    [repositories, form, parsed, activeCategory, techList],
+    [repositories, form, parsed, activeCategory, techList, liveStars],
   )
 
   const jsonOutput = useMemo(() => {
@@ -200,6 +250,9 @@ export function ContributePage({ repositories }: ContributePageProps) {
   }, [form])
 
   const set = <K extends keyof FormState>(key: K, value: string) => {
+    if (key === 'github_url') {
+      setLiveStars(null)
+    }
     setForm((f) => ({ ...f, [key]: value }))
     setErrors((e) => ({ ...e, [key]: undefined }))
   }
@@ -246,6 +299,7 @@ export function ContributePage({ repositories }: ContributePageProps) {
 
   const resetAll = () => {
     setForm(EMPTY)
+    setLiveStars(null)
     setErrors({})
     setSubmitted(false)
     setTouchedUrl(false)
@@ -418,6 +472,24 @@ export function ContributePage({ repositories }: ContributePageProps) {
                 </p>
               ) : (
                 <FieldError message={errors.github_url} />
+              )}
+
+              {/* Real-time GitHub live star status badge */}
+              {isFetchingGithub && (
+                <p className="mt-2 flex items-center gap-1.5 text-xs text-ink-3 animate-pulse">
+                  <Icon name="clock" size={13} />
+                  <span>Fetching real-time stars & metadata from GitHub API…</span>
+                </p>
+              )}
+
+              {liveStars !== null && !isFetchingGithub && (
+                <div className="mt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-1.5 rounded-[var(--radius-xs)] border border-emerald-900/60 bg-emerald-950/40 px-2.5 py-1.5 text-xs">
+                  <span className="flex items-center gap-1.5 font-medium text-emerald-400">
+                    <Icon name="star" size={13} className="text-amber-400" />
+                    <span>{liveStars.toLocaleString()} GitHub stars (real-time calculated)</span>
+                  </span>
+                  <span className="text-[11px] text-ink-3">Auto-populated into JSON</span>
+                </div>
               )}
             </div>
 

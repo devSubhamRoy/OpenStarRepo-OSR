@@ -98,6 +98,38 @@ export function downloadJson(filename: string, content: string): void {
   URL.revokeObjectURL(url)
 }
 
+export interface GitHubRepoDetails {
+  stars: number
+  description?: string
+  license?: string
+  topics?: string[]
+  owner: string
+  repo: string
+}
+
+export async function fetchGithubRepoDetails(owner: string, repo: string): Promise<GitHubRepoDetails | null> {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`, {
+      headers: {
+        Accept: 'application/vnd.github.v3+json',
+      },
+    })
+    if (!res.ok) return null
+    const data = await res.json()
+    return {
+      stars: typeof data.stargazers_count === 'number' ? data.stargazers_count : 0,
+      description: data.description || undefined,
+      license: data.license?.spdx_id && data.license.spdx_id !== 'NOASSERTION' ? data.license.spdx_id : undefined,
+      topics: Array.isArray(data.topics) ? data.topics : [],
+      owner: data.owner?.login || owner,
+      repo: data.name || repo,
+    }
+  } catch {
+    return null
+  }
+}
+
+
 export function initials(name: string): string {
   return name
     .split(/[\s-_]+/)
