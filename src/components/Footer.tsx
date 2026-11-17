@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { Icon } from './Icon'
 import { CATEGORIES } from '../lib/categories'
 
-const REPO_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR-'
+const REPO_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR'
 const CURRENT_YEAR = 2026
 
 export function Footer() {

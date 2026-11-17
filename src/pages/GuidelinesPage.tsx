@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 
-const REPO_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR-'
+const REPO_URL = 'https://github.com/devSubhamRoy/OpenStarRepo-OSR'
 const DATASET_PATH = 'src/data/repositories.json'
 
 const CONTRIBUTION_STEPS = [
