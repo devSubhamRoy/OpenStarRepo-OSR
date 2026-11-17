@@ -1,0 +1,1317 @@
+{
+  "repositories": [
+    {
+      "id": "001",
+      "name": "React",
+      "owner": "facebook",
+      "description": "The library for web and native user interfaces. Build encapsulated components that compose to make complex UIs.",
+      "github_url": "https://github.com/facebook/react",
+      "category": "Web Development",
+      "technologies": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "stars": 238000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Angular / Proprietary UI Toolkits",
+      "savings_annual": "$120/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "002",
+      "name": "Vue.js",
+      "owner": "vuejs",
+      "description": "An approachable, performant and versatile progressive framework for building user interfaces.",
+      "github_url": "https://github.com/vuejs/vue",
+      "category": "Web Development",
+      "technologies": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "stars": 212000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Commercial Web Frameworks",
+      "savings_annual": "$120/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "003",
+      "name": "Tailwind CSS",
+      "owner": "tailwindlabs",
+      "description": "A utility-first CSS framework for rapidly building custom user interfaces without leaving your HTML.",
+      "github_url": "https://github.com/tailwindlabs/tailwindcss",
+      "category": "Web Development",
+      "technologies": [
+        "CSS",
+        "JavaScript"
+      ],
+      "stars": 90000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Commercial Design Frameworks",
+      "savings_annual": "$99/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "004",
+      "name": "shadcn/ui",
+      "owner": "shadcn-ui",
+      "description": "Beautifully designed, accessible components that you can copy and paste into your apps. Open source, yours forever.",
+      "github_url": "https://github.com/shadcn-ui/ui",
+      "category": "Design Systems",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS"
+      ],
+      "stars": 82000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Tailwind UI / Catalyst ($299)",
+      "savings_annual": "$299 one-time",
+      "license": "MIT"
+    },
+    {
+      "id": "005",
+      "name": "Tabler Icons",
+      "owner": "tabler",
+      "description": "Over 5800 free and open-source SVG icons designed to make your website attractive, visually consistent and simply beautiful.",
+      "github_url": "https://github.com/tabler/tabler-icons",
+      "category": "UI/UX Design",
+      "technologies": [
+        "SVG",
+        "JavaScript"
+      ],
+      "stars": 19000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Noun Project / FlatIcon ($120/yr)",
+      "savings_annual": "$120/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "006",
+      "name": "Visual Studio Code",
+      "owner": "microsoft",
+      "description": "A lightweight but powerful source code editor with built-in support for JavaScript, TypeScript and Node.js.",
+      "github_url": "https://github.com/microsoft/vscode",
+      "category": "Developer Tools",
+      "technologies": [
+        "TypeScript",
+        "Electron"
+      ],
+      "stars": 172000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Sublime Text / JetBrains WebStorm ($169/yr)",
+      "savings_annual": "$169/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "007",
+      "name": "GitHub Docs",
+      "owner": "github",
+      "description": "The open-source behind docs.github.com — help, guides and documentation for every GitHub feature.",
+      "github_url": "https://github.com/github/docs",
+      "category": "Open Source Resources",
+      "technologies": [
+        "Markdown",
+        "JavaScript"
+      ],
+      "stars": 17000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "GitBook / Readme ($700/yr)",
+      "savings_annual": "$700/yr",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "id": "008",
+      "name": "Awesome ChatGPT Prompts",
+      "owner": "f",
+      "description": "A curated collection of prompt examples to be used with AI assistants, maintained by the community.",
+      "github_url": "https://github.com/f/awesome-chatgpt-prompts",
+      "category": "AI & Machine Learning",
+      "technologies": [
+        "Markdown"
+      ],
+      "stars": 130000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "PromptBase / Paid Prompt Packs ($60/yr)",
+      "savings_annual": "$60/yr",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "009",
+      "name": "FastAPI",
+      "owner": "fastapi",
+      "description": "A modern, fast, high-performance web framework for building APIs with Python 3.8+ based on standard type hints.",
+      "github_url": "https://github.com/fastapi/fastapi",
+      "category": "APIs & Backend",
+      "technologies": [
+        "Python"
+      ],
+      "stars": 88000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "MuleSoft / Enterprise API Tooling ($1,200/yr)",
+      "savings_annual": "$1,200/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "010",
+      "name": "Expo",
+      "owner": "expo",
+      "description": "An open-source platform for making universal native apps that run on Android, iOS and the web with React.",
+      "github_url": "https://github.com/expo/expo",
+      "category": "Mobile Applications",
+      "technologies": [
+        "TypeScript",
+        "React Native"
+      ],
+      "stars": 26000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Appcelerator / Commercial App Platforms ($400/yr)",
+      "savings_annual": "$400/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "011",
+      "name": "freeCodeCamp",
+      "owner": "freeCodeCamp",
+      "description": "An open-source codebase and curriculum to learn to code for free, helping millions become developers.",
+      "github_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "category": "Education",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "React"
+      ],
+      "stars": 425000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Paid Coding Bootcamps ($12,000)",
+      "savings_annual": "$12,000",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "id": "012",
+      "name": "OWASP Top Ten",
+      "owner": "OWASP",
+      "description": "The OWASP Top 10 is a standard awareness document representing the most critical security risks to web applications.",
+      "github_url": "https://github.com/OWASP/Top10",
+      "category": "Cybersecurity",
+      "technologies": [
+        "Markdown"
+      ],
+      "stars": 6500,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Proprietary AppSec Frameworks ($500/yr)",
+      "savings_annual": "$500/yr",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "013",
+      "name": "Radix UI Primitives",
+      "owner": "radix-ui",
+      "description": "An open-source, low-level UI component library with a focus on accessibility, customization and developer experience.",
+      "github_url": "https://github.com/radix-ui/primitives",
+      "category": "Design Systems",
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "stars": 18000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Amazon Redshift / Snowflake ($3,000/yr)",
+      "savings_annual": "$3,000/yr",
+      "license": "PostgreSQL"
+    },
+    {
+      "id": "014",
+      "name": "Vite",
+      "owner": "vitejs",
+      "description": "Next generation frontend tooling. Instant server start and lightning fast HMR, no matter how big your app is.",
+      "github_url": "https://github.com/vitejs/vite",
+      "category": "Developer Tools",
+      "technologies": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "stars": 78000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Docker Desktop Pro ($108/yr)",
+      "savings_annual": "$108/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "015",
+      "name": "Figma Plugin DS",
+      "owner": "figma",
+      "description": "Figma's own plugin design system starter with tokens, components and tooling for building plugin UIs.",
+      "github_url": "https://github.com/figma/figma-plugin-ds",
+      "category": "UI/UX Design",
+      "technologies": [
+        "CSS",
+        "JavaScript"
+      ],
+      "stars": 900,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Heroku / Google Cloud Run ($480/yr)",
+      "savings_annual": "$480/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "016",
+      "name": "Framer Motion",
+      "owner": "motion",
+      "description": "A production-grade motion library for React, bringing beautiful physics-based animations to interfaces.",
+      "github_url": "https://github.com/motiondivision/motion",
+      "category": "UI/UX Design",
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "stars": 29000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Postman Pro ($168/yr)",
+      "savings_annual": "$168/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "017",
+      "name": "Transformers",
+      "owner": "huggingface",
+      "description": "State-of-the-art machine learning for JAX, PyTorch and TensorFlow with thousands of pretrained models.",
+      "github_url": "https://github.com/huggingface/transformers",
+      "category": "AI & Machine Learning",
+      "technologies": [
+        "Python"
+      ],
+      "stars": 150000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Algolia / Elastic Cloud ($2,400/yr)",
+      "savings_annual": "$2,400/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "018",
+      "name": "Svelte",
+      "owner": "sveltejs",
+      "description": "A cybernetically enhanced web framework — compile-time reactivity with no virtual DOM overhead.",
+      "github_url": "https://github.com/sveltejs/svelte",
+      "category": "Web Development",
+      "technologies": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "stars": 85000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Sentry SaaS ($312/yr)",
+      "savings_annual": "$312/yr",
+      "license": "FSL-1.1-Apache-2.0"
+    },
+    {
+      "id": "019",
+      "name": "Flask",
+      "owner": "pallets",
+      "description": "The Python micro framework for building web applications with simplicity, flexibility and a large ecosystem.",
+      "github_url": "https://github.com/pallets/flask",
+      "category": "APIs & Backend",
+      "technologies": [
+        "Python"
+      ],
+      "stars": 70000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Datadog / Splunk Cloud ($1,800/yr)",
+      "savings_annual": "$1,800/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "020",
+      "name": "React Native",
+      "owner": "facebook",
+      "description": "A framework for building native apps using React — write once, run on iOS and Android natively.",
+      "github_url": "https://github.com/facebook/react-native",
+      "category": "Mobile Applications",
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React Native"
+      ],
+      "stars": 124000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Splunk APM / New Relic ($1,200/yr)",
+      "savings_annual": "$1,200/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "021",
+      "name": "The Odin Project",
+      "owner": "TheOdinProject",
+      "description": "An open-source full-stack curriculum that takes students from zero to job-ready developer, community driven.",
+      "github_url": "https://github.com/TheOdinProject/curriculum",
+      "category": "Education",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "stars": 6500,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Zapier / Make ($360/yr)",
+      "savings_annual": "$360/yr",
+      "license": "Sustainable-Use"
+    },
+    {
+      "id": "022",
+      "name": "Choose an Open Source License",
+      "owner": "github",
+      "description": "The source behind choosealicense.com, helping developers understand and pick the right license for their project.",
+      "github_url": "https://github.com/github/choosealicense.com",
+      "category": "Open Source Resources",
+      "technologies": [
+        "Ruby",
+        "Markdown"
+      ],
+      "stars": 3800,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Salesforce Sales Cloud ($1,500/yr)",
+      "savings_annual": "$1,500/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "023",
+      "name": "Panda CSS",
+      "owner": "chakra-ui",
+      "description": "The universal, type-safe, CSS-in-JS framework that generates static CSS at build time with zero runtime.",
+      "github_url": "https://github.com/chakra-ui/panda",
+      "category": "Design Systems",
+      "technologies": [
+        "TypeScript",
+        "CSS"
+      ],
+      "stars": 5800,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Stripe Billing Addons / Chargebee ($1,188/yr)",
+      "savings_annual": "$1,188/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "024",
+      "name": "Lucide Icons",
+      "owner": "lucide-icons",
+      "description": "A community-run fork of Feather Icons — beautiful, consistent open-source icon toolkit with 1500+ icons.",
+      "github_url": "https://github.com/lucide-icons/lucide",
+      "category": "UI/UX Design",
+      "technologies": [
+        "SVG",
+        "TypeScript"
+      ],
+      "stars": 16000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "SendGrid / Resend SaaS ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "025",
+      "name": "Supabase",
+      "owner": "supabase",
+      "description": "The open-source Firebase alternative — a Postgres development platform with auth, realtime and storage.",
+      "github_url": "https://github.com/supabase/supabase",
+      "category": "APIs & Backend",
+      "technologies": [
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "stars": 88000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Intercom / Zendesk ($1,800/yr)",
+      "savings_annual": "$1,800/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "026",
+      "name": "Semgrep",
+      "owner": "semgrep",
+      "description": "A fast, open-source static analysis engine for finding bugs and enforcing code standards in many languages.",
+      "github_url": "https://github.com/semgrep/semgrep",
+      "category": "Cybersecurity",
+      "technologies": [
+        "OCaml",
+        "Python"
+      ],
+      "stars": 12000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Discourse Hosted / Circle.so ($1,188/yr)",
+      "savings_annual": "$1,188/yr",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "027",
+      "name": "Cal.com",
+      "owner": "calcom",
+      "description": "The open-source scheduling infrastructure — a Calendly alternative you fully control and self-host.",
+      "github_url": "https://github.com/calcom/cal.com",
+      "category": "Developer Tools",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Prisma"
+      ],
+      "stars": 38000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "WordPress VIP / Ghost Pro ($348/yr)",
+      "savings_annual": "$348/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "028",
+      "name": "Nuxt",
+      "owner": "nuxt",
+      "description": "The intuitive Vue framework for the web — hybrid rendering, file-based routing and zero-config TypeScript.",
+      "github_url": "https://github.com/nuxt/nuxt",
+      "category": "Web Development",
+      "technologies": [
+        "TypeScript",
+        "Vue"
+      ],
+      "stars": 58000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Vercel Enterprise / Netlify Teams ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "029",
+      "name": "Ollama",
+      "owner": "ollama",
+      "description": "Get up and running with large language models locally — run Llama, Mistral and more on your own machine.",
+      "github_url": "https://github.com/ollama/ollama",
+      "category": "AI & Machine Learning",
+      "technologies": [
+        "Go"
+      ],
+      "stars": 110000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Amazon S3 Managed Tiers ($600/yr)",
+      "savings_annual": "$600/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "030",
+      "name": "Developer Roadmap",
+      "owner": "kamranahmedse",
+      "description": "Community-driven roadmaps, articles and resources for developers to grow in their careers.",
+      "github_url": "https://github.com/kamranahmedse/developer-roadmap",
+      "category": "Education",
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "stars": 330000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Redis Enterprise Cloud ($800/yr)",
+      "savings_annual": "$800/yr",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "id": "031",
+      "name": "Flutter",
+      "owner": "flutter",
+      "description": "Google's UI toolkit for building beautiful, natively compiled applications for mobile, web and desktop from one codebase.",
+      "github_url": "https://github.com/flutter/flutter",
+      "category": "Mobile Applications",
+      "technologies": [
+        "Dart"
+      ],
+      "stars": 172000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "LaunchDarkly ($1,000/yr)",
+      "savings_annual": "$1,000/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "032",
+      "name": "Zustand",
+      "owner": "pmndrs",
+      "description": "A small, fast and scalable state-management solution using simplified flux principles — no boilerplate, no providers.",
+      "github_url": "https://github.com/pmndrs/zustand",
+      "category": "Web Development",
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "stars": 51000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Auth0 / Okta Customer Identity ($300/yr)",
+      "savings_annual": "$300/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "033",
+      "name": "Storybook",
+      "owner": "storybookjs",
+      "description": "The industry-standard workshop for building, documenting and testing UI components in isolation.",
+      "github_url": "https://github.com/storybookjs/storybook",
+      "category": "Design Systems",
+      "technologies": [
+        "TypeScript",
+        "React"
+      ],
+      "stars": 87000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Klaviyo / Mailchimp Pro ($600/yr)",
+      "savings_annual": "$600/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "034",
+      "name": "FingerprintJS",
+      "owner": "fingerprintjs",
+      "description": "A browser fingerprinting library that queries device attributes to generate a stable visitor identifier.",
+      "github_url": "https://github.com/fingerprintjs/fingerprintjs",
+      "category": "Cybersecurity",
+      "technologies": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "stars": 25000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Hotjar / FullStory ($1,200/yr)",
+      "savings_annual": "$1,200/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "035",
+      "name": "curl",
+      "owner": "curl",
+      "description": "The command-line tool and library for transferring data with URLs, powering billions of requests every day.",
+      "github_url": "https://github.com/curl/curl",
+      "category": "APIs & Backend",
+      "technologies": [
+        "C"
+      ],
+      "stars": 38000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Metabase Cloud / Tableau ($840/yr)",
+      "savings_annual": "$840/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "036",
+      "name": "GitHub CLI",
+      "owner": "cli",
+      "description": "GitHub's official command-line tool — manage pull requests, issues and releases without leaving the terminal.",
+      "github_url": "https://github.com/cli/cli",
+      "category": "Developer Tools",
+      "technologies": [
+        "Go"
+      ],
+      "stars": 48000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "GitHub Actions Team Tiers ($250/yr)",
+      "savings_annual": "$250/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "037",
+      "name": "First Contributions",
+      "owner": "firstcontributions",
+      "description": "A hands-on project that walks beginners through their first open-source pull request in minutes.",
+      "github_url": "https://github.com/firstcontributions/first-contributions",
+      "category": "Open Source Resources",
+      "technologies": [
+        "Markdown"
+      ],
+      "stars": 49000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Grafana Cloud Enterprise ($348/yr)",
+      "savings_annual": "$348/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "038",
+      "name": "CS50x",
+      "owner": "cs50",
+      "description": "Harvard University's famous introduction to computer science, fully open-source and free for everyone.",
+      "github_url": "https://github.com/cs50/libcs50",
+      "category": "Education",
+      "technologies": [
+        "C"
+      ],
+      "stars": 1400,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Commercial CS Tutorials ($300)",
+      "savings_annual": "$300",
+      "license": "MIT"
+    },
+    {
+      "id": "039",
+      "name": "Heroicons",
+      "owner": "tailwindlabs",
+      "description": "Beautiful hand-crafted SVG icons by the makers of Tailwind CSS, available as solid and outline variants.",
+      "github_url": "https://github.com/tailwindlabs/heroicons",
+      "category": "UI/UX Design",
+      "technologies": [
+        "SVG"
+      ],
+      "stars": 22000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Streamline / FontAwesome Pro ($99/yr)",
+      "savings_annual": "$99/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "040",
+      "name": "Tauri",
+      "owner": "tauri-apps",
+      "description": "Build smaller, faster and more secure desktop and mobile applications with a web frontend and Rust backend.",
+      "github_url": "https://github.com/tauri-apps/tauri",
+      "category": "Developer Tools",
+      "technologies": [
+        "Rust",
+        "TypeScript"
+      ],
+      "stars": 92000,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "alternative_to": "Commercial Cross-Platform Shells ($500/yr)",
+      "savings_annual": "$500/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "041",
+      "name": "tradingview-indicator-for-ai-agents",
+      "owner": "roan-maverick",
+      "description": "Tradingview IndicatorBuilt for AI agents",
+      "github_url": "https://github.com/roan-maverick/tradingview-indicator-for-ai-agents",
+      "category": "Open Source Resources",
+      "technologies": [
+        "null"
+      ],
+      "stars": null,
+      "contributor": "claude",
+      "created_at": "2026-11-17",
+      "alternative_to": "TradingView Pro+ ($360/yr)",
+      "savings_annual": "$360/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "042",
+      "name": "Supabase",
+      "owner": "supabase",
+      "description": "The open-source Firebase alternative. Instantly generates a complete Postgres database, Auth, Instant APIs, and Edge Functions.",
+      "github_url": "https://github.com/supabase/supabase",
+      "category": "APIs & Backend",
+      "technologies": [
+        "TypeScript",
+        "Go",
+        "PostgreSQL",
+        "Elixir"
+      ],
+      "stars": 76500,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Firebase ($300/yr)",
+      "savings_annual": "$300/yr",
+      "license": "Apache-2.0"
+    },
+    {
+      "id": "043",
+      "name": "Penpot",
+      "owner": "penpot",
+      "description": "The open-source web-based design and prototyping platform for product teams. Native web standards and SVG by default.",
+      "github_url": "https://github.com/penpot/penpot",
+      "category": "UI/UX Design",
+      "technologies": [
+        "Clojure",
+        "ClojureScript",
+        "SVG"
+      ],
+      "stars": 33400,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Figma ($144/yr)",
+      "savings_annual": "$144/yr",
+      "license": "MPL-2.0"
+    },
+    {
+      "id": "044",
+      "name": "AppFlowy",
+      "owner": "AppFlowy-IO",
+      "description": "An open-source alternative to Notion. You are in 100% control of your data, knowledge base, tasks, and wiki notes.",
+      "github_url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "category": "Developer Tools",
+      "technologies": [
+        "Flutter",
+        "Rust",
+        "Dart"
+      ],
+      "stars": 58200,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Notion ($120/yr)",
+      "savings_annual": "$120/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "045",
+      "name": "Bitwarden",
+      "owner": "bitwarden",
+      "description": "Secure and open-source password manager for individuals, families, and businesses with end-to-end encryption.",
+      "github_url": "https://github.com/bitwarden/clients",
+      "category": "Cybersecurity",
+      "technologies": [
+        "TypeScript",
+        "C#",
+        "Angular"
+      ],
+      "stars": 16900,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "1Password ($36/yr)",
+      "savings_annual": "$36/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "046",
+      "name": "Plausible Analytics",
+      "owner": "plausible",
+      "description": "Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics tool that does not require cookie banners.",
+      "github_url": "https://github.com/plausible/analytics",
+      "category": "Web Development",
+      "technologies": [
+        "Elixir",
+        "ClickHouse",
+        "PostgreSQL"
+      ],
+      "stars": 19400,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Google Analytics 4 ($108/yr for alternatives)",
+      "savings_annual": "$108/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "047",
+      "name": "Medusa",
+      "owner": "medusajs",
+      "description": "Building blocks for digital commerce. An open-source, headless commerce engine providing rich APIs for modern e-commerce.",
+      "github_url": "https://github.com/medusajs/medusa",
+      "category": "Web Development",
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "stars": 26800,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Shopify ($468/yr)",
+      "savings_annual": "$468/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "048",
+      "name": "NocoDB",
+      "owner": "nocodb",
+      "description": "Open-source Airtable alternative. Turns any MySQL, PostgreSQL, SQL Server, SQLite into a collaborative smart spreadsheet.",
+      "github_url": "https://github.com/nocodb/nocodb",
+      "category": "APIs & Backend",
+      "technologies": [
+        "TypeScript",
+        "Vue.js",
+        "Node.js"
+      ],
+      "stars": 47200,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Airtable ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "049",
+      "name": "Mattermost",
+      "owner": "mattermost",
+      "description": "Open-source platform for secure team collaboration, chat, audio calling, workflows, and integrations behind your firewall.",
+      "github_url": "https://github.com/mattermost/mattermost",
+      "category": "Developer Tools",
+      "technologies": [
+        "Go",
+        "React",
+        "TypeScript"
+      ],
+      "stars": 31500,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Slack ($105/yr)",
+      "savings_annual": "$105/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "050",
+      "name": "Plane",
+      "owner": "makeplane",
+      "description": "Open-source project management platform. Track issues, epics, cycles, and product roadmaps with modern speed.",
+      "github_url": "https://github.com/makeplane/plane",
+      "category": "Developer Tools",
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "Django",
+        "Next.js"
+      ],
+      "stars": 33100,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": true,
+      "alternative_to": "Jira ($90/yr)",
+      "savings_annual": "$90/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "051",
+      "name": "Cal.com",
+      "owner": "calcom",
+      "description": "Scheduling infrastructure for everyone. Open-source Calendly alternative that you can customize and self-host.",
+      "github_url": "https://github.com/calcom/cal.com",
+      "category": "Web Development",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "Prisma"
+      ],
+      "stars": 34800,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Calendly ($144/yr)",
+      "savings_annual": "$144/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "052",
+      "name": "Infisical",
+      "owner": "Infisical",
+      "description": "Open source secret management platform: sync secrets across teams, cloud services, and infrastructure in seconds.",
+      "github_url": "https://github.com/Infisical/infisical",
+      "category": "Cybersecurity",
+      "technologies": [
+        "Go",
+        "Node.js",
+        "React"
+      ],
+      "stars": 16200,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "HashiCorp Vault / 1Password Secrets ($216/yr)",
+      "savings_annual": "$216/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "053",
+      "name": "PostHog",
+      "owner": "PostHog",
+      "description": "The open-source all-in-one product analytics suite: product analytics, session replays, feature flags, A/B testing, and surveys.",
+      "github_url": "https://github.com/PostHog/posthog",
+      "category": "Web Development",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "ClickHouse"
+      ],
+      "stars": 24900,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Mixpanel / Amplitude ($1,200/yr)",
+      "savings_annual": "$1,200/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "054",
+      "name": "Formbricks",
+      "owner": "formbricks",
+      "description": "Open-source SurveySuite for digital product teams. Gather qualitative feedback directly inside web and mobile apps.",
+      "github_url": "https://github.com/formbricks/formbricks",
+      "category": "Web Development",
+      "technologies": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "stars": 9200,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Typeform ($348/yr)",
+      "savings_annual": "$348/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "055",
+      "name": "Immich",
+      "owner": "immich-app",
+      "description": "High performance self-hosted photo and video backup solution directly from your mobile phone with face tagging and ML search.",
+      "github_url": "https://github.com/immich-app/immich",
+      "category": "Mobile Applications",
+      "technologies": [
+        "TypeScript",
+        "Dart",
+        "Python",
+        "Flutter"
+      ],
+      "stars": 54600,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Google Photos ($100/yr)",
+      "savings_annual": "$100/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "056",
+      "name": "Nextcloud",
+      "owner": "nextcloud",
+      "description": "A safe home for all your data. Access and share your files, calendars, contacts, and mail from any device on your terms.",
+      "github_url": "https://github.com/nextcloud/server",
+      "category": "Open Source Resources",
+      "technologies": [
+        "PHP",
+        "JavaScript",
+        "Vue.js"
+      ],
+      "stars": 26900,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Google Drive / Dropbox ($120/yr)",
+      "savings_annual": "$120/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "057",
+      "name": "Baserow",
+      "owner": "bram2w",
+      "description": "Open source no-code database and Airtable alternative. Build custom relational databases without developer knowledge.",
+      "github_url": "https://github.com/bram2w/baserow",
+      "category": "APIs & Backend",
+      "technologies": [
+        "Python",
+        "Django",
+        "Vue.js"
+      ],
+      "stars": 11300,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Airtable ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "058",
+      "name": "Ghost",
+      "owner": "TryGhost",
+      "description": "Turn your audience into a business. A powerful open source publishing platform for modern creators, newsletters, and blogs.",
+      "github_url": "https://github.com/TryGhost/Ghost",
+      "category": "Web Development",
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "MySQL"
+      ],
+      "stars": 47100,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Substack / Medium ($120/yr)",
+      "savings_annual": "$120/yr",
+      "license": "MIT"
+    },
+    {
+      "id": "059",
+      "name": "GIMP",
+      "owner": "GNOME",
+      "description": "GNU Image Manipulation Program: professional photo retouching, image composition, and graphic authoring.",
+      "github_url": "https://github.com/GNOME/gimp",
+      "category": "UI/UX Design",
+      "technologies": [
+        "C",
+        "GTK"
+      ],
+      "stars": 6100,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Adobe Photoshop ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "060",
+      "name": "Inkscape",
+      "owner": "inkscape",
+      "description": "Professional quality vector graphics software which runs on Linux, macOS and Windows. Free and open source SVG design.",
+      "github_url": "https://github.com/inkscape/inkscape",
+      "category": "UI/UX Design",
+      "technologies": [
+        "C++",
+        "GTK"
+      ],
+      "stars": 5400,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Adobe Illustrator ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "061",
+      "name": "Krita",
+      "owner": "KDE",
+      "description": "A free and open source sketching and digital painting app for concept artists, illustrators, and matte visualizers.",
+      "github_url": "https://github.com/KDE/krita",
+      "category": "UI/UX Design",
+      "technologies": [
+        "C++",
+        "Qt"
+      ],
+      "stars": 7200,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Corel Painter / Procreate ($60/yr)",
+      "savings_annual": "$60/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "062",
+      "name": "Blender",
+      "owner": "blender",
+      "description": "Open-source 3D creation suite: modeling, rigging, animation, simulation, rendering, compositing, motion tracking, and video editing.",
+      "github_url": "https://github.com/blender/blender",
+      "category": "UI/UX Design",
+      "technologies": [
+        "C",
+        "C++",
+        "Python"
+      ],
+      "stars": 14200,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Autodesk Maya ($1,875/yr)",
+      "savings_annual": "$1,875/yr",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "063",
+      "name": "Audacity",
+      "owner": "audacity",
+      "description": "Major multi-track audio editor and recorder for Windows, macOS, and Linux. Free, open source and cross-platform.",
+      "github_url": "https://github.com/audacity/audacity",
+      "category": "Developer Tools",
+      "technologies": [
+        "C++",
+        "wxWidgets"
+      ],
+      "stars": 12800,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Adobe Audition ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "064",
+      "name": "OBS Studio",
+      "owner": "obsproject",
+      "description": "Free and open source software for live video recording and streaming across Twitch, YouTube, and conferencing tools.",
+      "github_url": "https://github.com/obsproject/obs-studio",
+      "category": "Developer Tools",
+      "technologies": [
+        "C",
+        "C++"
+      ],
+      "stars": 58300,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Streamlabs / Camtasia ($300/yr)",
+      "savings_annual": "$300/yr",
+      "license": "GPL-2.0"
+    },
+    {
+      "id": "065",
+      "name": "Shotcut",
+      "owner": "mltframework",
+      "description": "Free, open source, cross-platform non-linear video editor supporting hundreds of audio and video formats and 4K resolution.",
+      "github_url": "https://github.com/mltframework/shotcut",
+      "category": "Developer Tools",
+      "technologies": [
+        "C++",
+        "Qt",
+        "OpenGL"
+      ],
+      "stars": 10500,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Adobe Premiere Pro ($240/yr)",
+      "savings_annual": "$240/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "066",
+      "name": "LibreOffice",
+      "owner": "LibreOffice",
+      "description": "Free and powerful open-source office suite. Compatible with Microsoft Word, Excel, PowerPoint without subscription fees.",
+      "github_url": "https://github.com/LibreOffice/core",
+      "category": "Education",
+      "technologies": [
+        "C++",
+        "Java",
+        "Python"
+      ],
+      "stars": 3400,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Microsoft 365 ($70/yr)",
+      "savings_annual": "$70/yr",
+      "license": "MPL-2.0"
+    },
+    {
+      "id": "067",
+      "name": "Thunderbird",
+      "owner": "mozilla",
+      "description": "A free email, calendar, and address book application that puts you in control of your communication and privacy.",
+      "github_url": "https://github.com/mozilla/releases-comm-central",
+      "category": "Developer Tools",
+      "technologies": [
+        "C++",
+        "JavaScript"
+      ],
+      "stars": 4100,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Microsoft Outlook ($70/yr)",
+      "savings_annual": "$70/yr",
+      "license": "MPL-2.0"
+    },
+    {
+      "id": "068",
+      "name": "Joplin",
+      "owner": "laurent22",
+      "description": "An open source note-taking and to-do application with end-to-end synchronization across Windows, macOS, Linux, Android and iOS.",
+      "github_url": "https://github.com/laurent22/joplin",
+      "category": "Developer Tools",
+      "technologies": [
+        "TypeScript",
+        "Electron",
+        "React Native"
+      ],
+      "stars": 45100,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Evernote ($130/yr)",
+      "savings_annual": "$130/yr",
+      "license": "AGPL-3.0"
+    },
+    {
+      "id": "069",
+      "name": "KeePassXC",
+      "owner": "keepassxreboot",
+      "description": "Modern, secure, and open-source password manager that stores your passwords locally without relying on third-party cloud servers.",
+      "github_url": "https://github.com/keepassxreboot/keepassxc",
+      "category": "Cybersecurity",
+      "technologies": [
+        "C++",
+        "Qt"
+      ],
+      "stars": 20400,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "LastPass ($36/yr)",
+      "savings_annual": "$36/yr",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "070",
+      "name": "Listmonk",
+      "owner": "knadh",
+      "description": "High-performance, self-hosted newsletter and mailing list manager. Packaged as a single binary with zero external dependencies.",
+      "github_url": "https://github.com/knadh/listmonk",
+      "category": "APIs & Backend",
+      "technologies": [
+        "Go",
+        "Vue.js",
+        "PostgreSQL"
+      ],
+      "stars": 16500,
+      "contributor": "Community",
+      "created_at": "2026-11-17",
+      "featured": false,
+      "alternative_to": "Mailchimp ($420/yr)",
+      "savings_annual": "$420/yr",
+      "license": "AGPL-3.0"
+    }
+  ]
+}
